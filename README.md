@@ -1,8 +1,8 @@
-Html Hello World Demo
-=====================
+HTML mutation-observer Demo
+===========================
 
 ```
+npm install
 open index.html
 ```
 
-You will see `Hello, World!` on page.
