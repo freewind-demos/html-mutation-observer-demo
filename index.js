@@ -1,14 +1,14 @@
 function addNew() {
-  $('#main').append('<li>added</li>')
+  $('#xxx').text("sdfsdfdsf") ;
 }
 
 $(() => {
   const targetNode = document.querySelector("body");
 
   const observerOptions = {
-    childList: true,
+    childList: true, // direct children
     attributes: true,
-    subtree: true //Omit or set to false to observe only changes to the parent node.
+    subtree: true // descendants. Only available when childList is true
   };
 
   const observer = new MutationObserver(function () {
